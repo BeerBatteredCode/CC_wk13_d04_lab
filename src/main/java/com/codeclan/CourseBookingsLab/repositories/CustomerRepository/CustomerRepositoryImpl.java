@@ -1,4 +1,4 @@
 package com.codeclan.CourseBookingsLab.repositories.CustomerRepository;
 
-public class CustomerRepositoryImpl {
+public class CustomerRepositoryImpl implements CustomerRepositoryCustom {
 }
