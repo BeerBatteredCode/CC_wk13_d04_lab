@@ -31,5 +31,5 @@ public class CustomerController {
     public List<Customer> findCustomersByTownAndCourseAndAge(@PathVariable String town, @PathVariable Long id, @PathVariable int age){
         return customerRepository.findCustomersByTownAndCourseAndAge(town, id, age);
     }
-
+    
 }
